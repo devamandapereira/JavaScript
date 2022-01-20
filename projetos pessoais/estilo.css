@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+main {
+    background-color: rgba(185, 184, 184, 0.336);
+    width: 350px;
+    height: 350px;
+    margin: 0px;
+    padding: 10px;
+}
+h1 {
+    color: rgb(80, 172, 80);
+    text-align: center;
+}
+input {
+    width: 320px;
+    height: 27px;
+    border-radius: 5px;
+    border-color: white;
+}
+input#pesquisar {
+    text-align: center;
+    background-color: rgb(102, 168, 102);
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-color: rgb(102, 168, 102);
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Pesquisa de usuário</title>
+</head>
+<body>
+<main>
+    <h1>Pesquisa de usuário</h1>
+    
+    <div><strong>E-MAIL</strong> <br>
+        <input type="email" name="txt1" id="email"> 
+    </div>
+    <br>
+    <div> <strong>NOME</strong> <br>
+        <input type="text" name="txt2" id="nome">
+    </div>
+    <br>
+    <div><strong> SOBRENOME</strong> <br>
+        <input type="text" name="txt3" id="sobrenome">
+    </div>
+    <br>
+    <input id="pesquisar" type="button" value="Pesquisar" onclick="pesquisar ()">
+    <div id="resp"></div>
+</main>
+
+<script>
+    function pesquisar () {
+        var email = document.getElementById ('email')
+        var nome = document.getElementsById ('nome')
+        var sobrenome = document.getElementById ('sobrenome')
+        var resp = document.getElementsById ('res')
+        var pesquisa = String (nome.value)
+        
+        if (pesquisa == 'Amanda') {
+        res.innerHTML =+ `<p>teste</p>`
+
+        }
+        else {
+            res.innerHTML =+ `teste 2 `
+        }
+    }
+    
+
+            
+</script>
+</body>
+</html>
