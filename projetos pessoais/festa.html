@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Festa</title>
+</head>
+<body>
+    <main>
+    <h1><BEM-VINDO!></BEM-VINDO!> <br> PARA SABER SE SEU NOME ESTÁ NA LISTA, O DIGITE ABAIXO:</h1>
+    <input id = "nome" type="text" name="txt" id="nome">
+    <input id="verificar" type="button" value="verificar" onclick="verificar ()">
+    <div id="resultado"></div>
+    </main>
+
+    <script>
+        function verificar () {
+        var text = document.getElementById ('nome')
+        var res = document.getElementById ('resultado')
+        var entraounao =  String (nome.value)
+
+        if (entraounao == 'Amanda') {
+           resultado.innerHTML +=  `<p>Olá, ${entraounao}. Seu nome está na lista. Pode entrar!</p>`
+           
+        }
+        else {
+            resultado.innerHTML += `<p>Olá, ${entraounao}. Infelizmente seu nome não está na lista. Você não pode entrar.</p>`
+        }
+    }
+    </script>
+</body>
+</html>

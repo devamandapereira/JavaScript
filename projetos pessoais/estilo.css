@@ -30,3 +30,10 @@ input#pesquisar {
     height: 35px;
     border-color: rgb(102, 168, 102);
 }
+div#resp {
+    background-color: rgb(182, 182, 182);
+    width: 366px;
+    height: 56px ;
+    margin: -10px;
+    padding: 2px;
+}

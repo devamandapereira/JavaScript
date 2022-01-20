@@ -29,20 +29,18 @@
 
 <script>
     function pesquisar () {
-        var email = document.getElementById ('email')
-        var nome = document.getElementsById ('nome')
-        var sobrenome = document.getElementById ('sobrenome')
-        var resp = document.getElementsById ('res')
-        var pesquisa = String (nome.value)
-        
-        if (pesquisa == 'Amanda') {
-        res.innerHTML =+ `<p>teste</p>`
+        var txt2 = document.getElementById ('nome')
+        var result = document.getElementById ('resp')
+        var usuario = String (nome.value)
 
+        if (usuario== 'Amanda') {
+            resp.innerHTML += `<p>Usuário encontrado!</p>`
         }
         else {
-            res.innerHTML =+ `teste 2 `
+            resp.innerHTML += `<p>Usuário não encontrado.</p>`
         }
     }
+        
     
 
             
