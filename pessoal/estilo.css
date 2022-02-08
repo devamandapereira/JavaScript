@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body {
+    background-color: #DF1D3D;
+}
+img {
+    padding: 0px;
+    margin: -23px 336px -25px 0px;
+}
+header {
+    background-color: #F0F1F7;
+    padding: 13px;
+    margin: -8px;
+}
+a {
+    color: grey;
+    margin-left: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+#proenem {
+    color: #DF1D3D;
+}
+#proenem > :hover {
+    text-decoration: underline;
+}
+.cabecario {
+    margin-left: 28px;
+}
+.cabecario > :hover {
+    text-decoration: underline;
+}
+
+#menu {
+    margin: 8px 50px 10px 0px;
+    padding: 10px;
+    text-align: right;
+}
+#menu > :hover {
+    color:#DF1D3D;
+}
+.cabecario2 {
+    margin: 10px 25px 0px 12px;
+}
+input {
+    margin: 5px;
+}
+#acessar {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+}
+#matricula {
+    background-color:#DF1D3D;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+#promocao > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    color: #FDDEA4;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+#promocao > h2 {
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 440px;
+    height: 250px;
+    margin: 25px 0px 18px 45px;
+}
